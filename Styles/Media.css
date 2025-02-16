@@ -2,3 +2,116 @@
   font-family: Vazir;
   src: url(../Public/Fonts/Vazir-Light.woff2);
 }
+@media screen and (min-width: 500px) {
+  .menu-image {
+    width: 100%;
+    height: 160px;
+  }
+  .menu {
+    grid-template-columns: repeat(2, auto);
+    gap: 24px;
+  }
+  .menu-image {
+    height: 300px;
+  }
+  .navigation {
+    height: 100px;
+  }
+  .menu-items {
+    width: 180px;
+    height: 260px;
+  }
+  .bg-item {
+    width: 180px;
+  }
+  .menu-items > img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .menu-image {
+    width: 100%;
+    height: 260px;
+  }
+  .navigation {
+    height: 80px;
+  }
+  .menu {
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+  }
+  .menu-image {
+    height: 300px;
+  }
+  .navigation {
+    height: 100px;
+  }
+  .menu-items {
+    width: 180px;
+    height: 260px;
+  }
+  .bg-item {
+    width: 180px;
+  }
+  .menu-items > img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .menu {
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+  }
+  .menu-image {
+    height: 300px;
+  }
+  .navigation {
+    height: 100px;
+  }
+  .menu-items {
+    width: 220px;
+    height: 300px;
+  }
+  .bg-item {
+    width: 220px;
+  }
+  .menu-items > img {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main > h3 {
+    font-size: 40px;
+  }
+  .navigation {
+    height: 115px;
+  }
+  .search-bar {
+    display: none;
+  }
+  .menu {
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+  }
+  .menu-image {
+    height: 336px;
+  }
+  .menu-items {
+    width: 287px;
+    height: 320px;
+  }
+  .bg-item {
+    width: 287px;
+  }
+  .menu-items > img {
+    width: 240px;
+    height: 240px;
+  }
+  .description {
+    width: 100%;
+    height: 390px;
+  }
+}
