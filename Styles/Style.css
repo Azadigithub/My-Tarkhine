@@ -25,6 +25,7 @@ header {
 }
 .vector,
 .menu-icons {
+  width: 102px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,12 +35,12 @@ header {
   height: 32px;
 }
 .vector > img {
-  width: 67px;
-  height: 32px;
+  width: 70%;
+  height: 70%;
 }
 .menu-icons > img:first-child {
-  width: 24px;
-  height: 24px;
+  width: 30%;
+  height: 30%;
 }
 .menu-icons > img {
   width: 16px;
