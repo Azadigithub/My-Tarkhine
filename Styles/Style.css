@@ -150,6 +150,10 @@ main,
 }
 .chapters-container {
   margin: 20px 0;
+  width: 100%;
+}
+.chapters-container > h3 {
+  margin-bottom: 50px;
 }
 .chapters {
   width: 360px;

@@ -2,6 +2,11 @@
   font-family: Vazir;
   src: url(../Public/Fonts/Vazir-Light.woff2);
 }
+@media screen and (min-width: 100px) {
+  .header-list {
+    display: none;
+  }
+}
 @media screen and (min-width: 500px) {
   .menu-image {
     width: 100%;
@@ -46,6 +51,9 @@
     display: grid;
     grid-template-columns: 5% 12% 45% 10%;
   }
+  .search-bar {
+    display: none;
+  }
   .header-list > ul > li > a {
     font-size: 18px;
   }
@@ -88,6 +96,9 @@
 
     display: grid;
     grid-template-columns: 5% 12% 45% 10%;
+  }
+  .search-bar {
+    display: none;
   }
   .header-list > ul > li > a {
     font-size: 20px;
@@ -138,5 +149,12 @@
   }
   .description {
     height: 390px;
+  }
+  .chapters {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .chapter {
+    flex-direction: column;
   }
 }
