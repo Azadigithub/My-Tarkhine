@@ -4,7 +4,7 @@ let menuImage2 = document.getElementById("menu-image2");
 let menuImage = document.getElementById("image-container");
 
 menuButton.addEventListener("click", function () {
-  console.log("clicked");
+  // console.log("clicked");
 });
 function myFunction(x) {
   if (x.matches) {
@@ -26,5 +26,5 @@ myFunction(x);
 // Attach listener function on state changes
 x.addEventListener("change", function () {
   myFunction(x);
-  console.log(x);
+  // console.log(x);
 });

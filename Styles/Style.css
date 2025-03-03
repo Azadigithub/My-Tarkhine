@@ -129,6 +129,10 @@ main,
   position: absolute;
   bottom: 0;
   right: 15px;
+  transition: all 0.5s;
+}
+.menu-items > img:hover {
+  rotate: 15deg;
 }
 .bg-item {
   width: 102%;
@@ -143,10 +147,18 @@ main,
   height: 339px;
   margin-top: 30px;
 }
-.description > img {
+.description > span {
+  position: relative;
+}
+.description > span > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.description > span > h1 {
+  position: absolute;
+  top: -300px;
+  color: #fff;
 }
 .chapters-container {
   margin: 20px 0;
